@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'devise', '~> 3.5', '>= 3.5.2'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
 # Use unicorn as the app server
 # gem 'unicorn'
 

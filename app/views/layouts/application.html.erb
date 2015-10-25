@@ -12,7 +12,11 @@
 <p class="alert"><%=alert%></p>
 <%= link_to "Sign up", new_user_registration_path %>
 <%= link_to "Sign in", new_user_session_path %>
+<%= link_to user_omniauth_authorize_path(:github) do %><%=image_tag('github.png',width:'40',height:'40')%><%end%>
 <%= link_to "Log out", destroy_user_session_path, :method => :delete %>
+
+<%= link_to "Edit profile", edit_user_registration_path %>
+
 <%= yield %>
 
 </body>
